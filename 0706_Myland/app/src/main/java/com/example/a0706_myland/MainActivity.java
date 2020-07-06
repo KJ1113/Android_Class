@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 name = editText.getText().toString();
                 Toast.makeText(getApplicationContext(),"name에 값을 넣었습니다.",Toast.LENGTH_LONG).show();
+                //test
             }
         });
 
