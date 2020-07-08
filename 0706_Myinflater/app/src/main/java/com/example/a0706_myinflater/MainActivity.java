@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 inflater.inflate(R.layout.sub,inner_layout);
                 // inner_layout 안에 sub 레이아웃을 추가함
-
                 CheckBox checkBox = inner_layout.findViewById(R.id.checkBox2);
                 checkBox.setText("변경되었어요.");
             }
