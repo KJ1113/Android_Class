@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton1Clicked(View v) {
-        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com")); startActivity(myIntent);
+        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
+        startActivity(myIntent);
     }
     public void onButton2Clicked(View v) {
 
